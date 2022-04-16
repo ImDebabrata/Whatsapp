@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  min-height: 450px;
+}
+#main {
+  margin: auto;
+  width: 100%;
+}
+nav {
+    margin-top: -16px;
+  width: 100%;
+  height: 88px;
+  background: #128c7e;
+  position: fixed;
+  z-index: 1;
+}
+nav > h1 {
+  color: white;
+  margin: 15px 10px;
+}
+ul.tools {
+  float: right;
+  display: block;
+  margin-top: -40px;
+}
+nav > ul.fun {
+  display: flex;
+  width: 100%;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+}
+nav > ul.tools {
+  display: flex;
+}
+nav > ul.fun > li {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 6px;
+}
+li.csc {
+  width: 100%;
+}
+nav > ul > li > img {
+  height: 22px;
+  margin-right: 5px;
+  margin: 0 8px 0 10px;
+}
+li {
+  list-style: none;
+}
+/* The below code is for body of chats */
+div#chats {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  margin-top: 63px;
+}
+div.dp-name {
+  display: flex;
+}
+ul.nperson {
+  padding-inline-start: 15px;
+}
+img.dp {
+    margin-right: 11px;
+}
+ul.nperson >li {
+    /* border: 4px solid red; */
+  }
+  p.umsg {
+      margin-left: 58px;
+      margin-top: -21px;
+  }
+  h3.uname {
+      margin-top: 7px;
+      width: 100%;
+  }
+  p.time {
+      display: block;
+      float: right;
+      margin-left: 0%;
+      margin-right: 8px;
+  }
+  div img.dp {
+      border-radius: 50%;
+      width: 45px;
+      height: 45px;
+  }
+div.message > img {
+    border: 2px solid black;
+    height: 55px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 80%;
+}
